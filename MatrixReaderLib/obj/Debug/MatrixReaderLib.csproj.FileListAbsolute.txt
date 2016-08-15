@@ -15,3 +15,20 @@ C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixRea
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixReaderLib\bin\Debug\RationalLib.xml
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixReaderLib\bin\Debug\Newtonsoft.Json.dll
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixReaderLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\MatrixReaderLib.XML
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\MatrixReaderLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\MatrixReaderLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\CommonLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\MatrixLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\RationalLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\CommonLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\CommonLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\MatrixLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\MatrixLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\RationalLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\RationalLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\obj\Debug\MatrixReaderLib.csprojResolveAssemblyReference.cache
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\obj\Debug\MatrixReaderLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixReaderLib\obj\Debug\MatrixReaderLib.pdb

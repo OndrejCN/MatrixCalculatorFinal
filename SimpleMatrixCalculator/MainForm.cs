@@ -48,14 +48,7 @@ namespace SimpleMatrixCalculator
                 for (int j = 0; j < matrixTextBox.GetLength(1); j++)
                 {
                     var textBox = matrixTextBox[i, j];
-                    try
-                    {
-                        textBox.ShowDenominator = (textBox.Value.Denominator != 1);
-                    }
-                    catch (DivideByZeroException)
-                    {
-                        textBox.ShowDenominator = true;
-                    }
+                    textBox.Validate();
                 }
             }
         }
@@ -64,10 +57,10 @@ namespace SimpleMatrixCalculator
         {
             bool wrongInput;
             Rational[] results;
-            Matrix matrix = ReadTextBoxMatrix(out wrongInput);
+            Matrix matrix = ReadTextBoxMatrix();
 
             RemoveAllResultLabels();
-            if (!wrongInput)
+            if (matrix != null)
             {
                 try
                 {
@@ -92,10 +85,10 @@ namespace SimpleMatrixCalculator
             }
         }
 
-        private Matrix ReadTextBoxMatrix(out bool wrongInput)
+        private Matrix ReadTextBoxMatrix()
         {
             Matrix matrix = new Matrix();
-            wrongInput = false;
+            var error = false;
 
             //all lines
             for (int i = 0; i < matrixTextBox.GetLength(0); i++)
@@ -106,39 +99,29 @@ namespace SimpleMatrixCalculator
                 //all columns
                 for (int j = 0; j < matrixTextBox.GetLength(1); j++)
                 {
-                    try
+                    var textBox = matrixTextBox[i, j];
+                    if (!textBox.Validate())
                     {
-                        int numerator = matrixTextBox[i, j].Value.Numerator;
-                        int denominator = matrixTextBox[i, j].Value.Denominator;
-
-                        if (matrixTextBox[i, j].WrongInputNumerator ||
-                            matrixTextBox[i, j].WrongInputDenominator)
-                        {
-                            wrongInput = true;
-                            return null;
-                        }
-
-                        //if (j < matrixTextBox.GetLength(1) - 1 && zeroDenominatorInput == false)
-                        if (j < matrixTextBox.GetLength(1) - 1)
-                        {
-                            coefficients[j] = new Rational(numerator, denominator);
-                        }
-                        //else if (zeroDenominatorInput == false)
-                        else
-                        {
-                            result = new Rational(numerator, denominator);
-                            matrix.Rows.Add(new MatrixRow(coefficients, result));
-                        }
+                        error = true;
+                        continue;
                     }
+                    int numerator = textBox.Value.Numerator;
+                    int denominator = textBox.Value.Denominator;
 
-                    catch (DivideByZeroException)
+                    //if (j < matrixTextBox.GetLength(1) - 1 && zeroDenominatorInput == false)
+                    if (j < matrixTextBox.GetLength(1) - 1)
                     {
-                        wrongInput = true;
-                        return null;
+                        coefficients[j] = new Rational(numerator, denominator);
+                    }
+                    //else if (zeroDenominatorInput == false)
+                    else
+                    {
+                        result = new Rational(numerator, denominator);
+                        matrix.Rows.Add(new MatrixRow(coefficients, result));
                     }
                 }
             }
-            return matrix;
+            return (error) ? null : matrix;
         }
 
         private void ProcessResults(Matrix.MatrixResult matrixResult, Rational[] results)
@@ -406,10 +389,9 @@ namespace SimpleMatrixCalculator
         {
             if (SaveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                bool wrongInput;
-                Matrix matrix = ReadTextBoxMatrix(out wrongInput);
+                Matrix matrix = ReadTextBoxMatrix();
 
-                if (!wrongInput)
+                if (matrix != null)
                 {
                     string pathSource = SaveFileDialog.InitialDirectory + SaveFileDialog.FileName;
                     Loader matrixSaver = new Loader(pathSource);
@@ -418,7 +400,7 @@ namespace SimpleMatrixCalculator
                 }
                 else
                 {
-                    this.StatusLbl.Text = "Wrong input data in a file.";
+                    this.StatusLbl.Text = "Bad inputs.";
                 }
 
             }

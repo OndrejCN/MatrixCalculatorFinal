@@ -35,18 +35,9 @@ namespace SimpleMatrixCalculator
         {
             get
             {
-                int numerator = ReadAndManageTextBox(Numerator, ref WrongInputNumerator, false);
-                int denominator = ReadAndManageTextBox(Denominator, ref WrongInputDenominator, true);
-
-                //if (numerator != PARSING_ERROR && denominator != PARSING_ERROR && denominator != 0)
-                if (!WrongInputNumerator && !WrongInputDenominator)
-                {
-                    Rational rationalValue = new Rational(numerator, denominator);
-                    Numerator.Text = rationalValue.Numerator.ToString();
-                    Denominator.Text = rationalValue.Denominator.ToString();
-                    return rationalValue;
-                }
-                return new Rational(0, 0);
+                int numerator = Int32.Parse(Numerator.Text);
+                int denominator = Int32.Parse(Denominator.Text);
+                return new Rational(numerator, denominator);
             }
             set
             {
@@ -95,6 +86,7 @@ namespace SimpleMatrixCalculator
         private void RationalTextBox_Leave(object sender, EventArgs e)
         {
             this.ShowDenominator = (this.Denominator.Text != "1");
+            this.Validate();
         }
 
         private void RationalTextBox_Enter(object sender, EventArgs e)
@@ -127,52 +119,15 @@ namespace SimpleMatrixCalculator
             }
         }
 
-        /// <summary>
-        /// Parse string to int.
-        /// </summary>
-        /// <param name="str">Input string variable.</param>
-        /// <returns>Output int variable.</returns>
-        public static int TryParseStringToInt(string str)
+        public bool Validate()
         {
-            int number;
-            try
-            {
-                number = Int32.Parse(str);
-            }
-            catch (FormatException)
-            {
-                return PARSING_ERROR;
-            }
-            catch (OverflowException)
-            {
-                return PARSING_ERROR;
-            }
-            return number;
+            int numberator, denominator;
+            var numeratorValid = Int32.TryParse(this.Numerator.Text, out numberator);
+            var denominatorValid = (Int32.TryParse(this.Denominator.Text, out denominator) && denominator != 0);
+            this.Numerator.ForeColor = (!numeratorValid) ? Color.Red : Color.Empty;
+            this.Denominator.ForeColor = (!denominatorValid) ? Color.Red : Color.Empty;
+            return (numeratorValid && denominatorValid);
         }
 
-        private int ReadAndManageTextBox(TextBox box, ref bool wrongInput, bool isDenominator)
-        {
-            int number = RationalTextBox.TryParseStringToInt(box.Text);
-
-            if (number == 0 && isDenominator)
-            {
-                box.ForeColor = Color.Red;
-                wrongInput = true;
-            }
-
-            else if (number == PARSING_ERROR)
-            {
-                box.ForeColor = Color.Red;
-                wrongInput = true;
-            }
-            else
-            {
-                box.ForeColor = Color.Black;
-                wrongInput = false;
-            }
-            return number;
-        }
-
-        public const int PARSING_ERROR = 21845;
     }
 }
