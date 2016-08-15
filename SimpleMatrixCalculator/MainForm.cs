@@ -66,6 +66,7 @@ namespace SimpleMatrixCalculator
             Rational[] results;
             Matrix matrix = ReadTextBoxMatrix(out wrongInput);
 
+            RemoveAllResultLabels();
             if (!wrongInput)
             {
                 try
@@ -142,7 +143,7 @@ namespace SimpleMatrixCalculator
 
         private void ProcessResults(Matrix.MatrixResult matrixResult, Rational[] results)
         {
-            RemoveAllResultLabels();
+            //RemoveAllResultLabels();
 
             if (matrixResult == Matrix.MatrixResult.Exact)
             {
