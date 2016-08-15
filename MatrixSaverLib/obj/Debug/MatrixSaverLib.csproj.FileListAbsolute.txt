@@ -1,0 +1,4 @@
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixSaverLib\bin\Debug\MatrixSaverLib.dll
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixSaverLib\bin\Debug\MatrixSaverLib.pdb
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixSaverLib\obj\Debug\MatrixSaverLib.dll
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixSaverLib\obj\Debug\MatrixSaverLib.pdb

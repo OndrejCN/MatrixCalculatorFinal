@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="36f10b2f-c69f-4124-af6f-5f9c2c7b9116" Title="MatrixLib" Url="html/740e708b-482f-6727-ece6-17a325d1e3ae.htm">
+    <HelpTOCNode Id="ba982d6a-aaf6-40d7-80fb-56bf5b9e3772" Title="Matrix Class" Url="html/12a05c80-32e7-dc0b-0270-e22d73da0150.htm">
+      <HelpTOCNode Title="Matrix Constructor " Url="html/3e448e1e-2795-8ec6-8887-9f89b0f736f6.htm" />
+      <HelpTOCNode Id="c4eb1dba-1440-4879-96a7-7365602a6d28" Title="Matrix Methods" Url="html/f2171d09-83d1-2aa8-2fdc-f2982e6eb69c.htm">
+        <HelpTOCNode Title="ClearUnwantedCoefficients Method " Url="html/47750cc8-4a25-adaf-9ce1-dc8b07b13929.htm" />
+        <HelpTOCNode Title="Equals Method " Url="html/0ff4c2e0-30ea-2d1a-33eb-66206bc85cd1.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/6ab480f2-d194-58e6-ecd0-4e13767e9901.htm" />
+        <HelpTOCNode Title="Solve Method " Url="html/f1eabbdc-67fd-a700-540c-cb44f0c0f567.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/2aff8897-1b98-2fd0-39f9-a94529a37bb6.htm" />
+        <HelpTOCNode Title="Validate Method " Url="html/ed44fbc9-e547-5de9-3c9e-3b9e96eea500.htm" />
+        <HelpTOCNode Title="Verify Method " Url="html/0197f592-f1aa-27f4-fd81-9a1fbc87772a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="97fb6bcc-1103-4b81-b7a2-79e6f5dcbd70" Title="Matrix Properties" Url="html/8c9445a7-c75a-a554-bd42-7a84cfcbeace.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/38ea0d42-514b-afa7-2bb2-12af4e276fa2.htm" />
+        <HelpTOCNode Title="ComputeHistory Property " Url="html/147d93e3-c3a3-9016-7f31-f260472e5bb7.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/8c9b8b02-589e-4210-d8d7-8ee8382c7068.htm" />
+        <HelpTOCNode Title="Rows Property " Url="html/b4eec1b1-3598-5218-8101-bcdd18a6c380.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Matrix.MatrixResult Enumeration" Url="html/bad8965e-73d3-44b0-6e55-a8efcb56923c.htm" />
+    <HelpTOCNode Id="3fc835fb-7eec-4efa-b8c8-970f1fadfd94" Title="MatrixRow Class" Url="html/7816b1e6-2f22-f87f-46d3-d253caa5c176.htm">
+      <HelpTOCNode Title="MatrixRow Constructor " Url="html/b550c5ce-d89e-09f5-d717-40d2dadeca76.htm" />
+      <HelpTOCNode Id="4cb41cba-54db-49e9-8781-a04a9473f3fd" Title="MatrixRow Methods" Url="html/e1235baa-b71f-4f72-acda-5a00beb5ed13.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/ee636d31-9b26-cb48-e9fb-dbc6ef09fa29.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/89358713-0d47-0b08-5b17-6edfdaf6783f.htm" />
+        <HelpTOCNode Title="Validate Method " Url="html/119e9ede-66f4-9886-eb08-1a96d31d9190.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2c2ab1e9-5c69-4868-b5bc-6d157db2209c" Title="MatrixRow Operators" Url="html/f4dc85c5-31ba-ab84-4165-a9a768686ebc.htm">
+        <HelpTOCNode Title="Addition Operator " Url="html/68bf2b52-35a4-14c3-be17-7f47f6cb2382.htm" />
+        <HelpTOCNode Title="Equality Operator " Url="html/4cfb3955-3697-c17b-e724-50ff3f3918a5.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/f1eb4e9a-0506-df37-415b-064c1de422ab.htm" />
+        <HelpTOCNode Title="Multiply Operator " Url="html/9e321b9d-1ea1-4d4d-b402-edda4261e76d.htm" />
+        <HelpTOCNode Title="Subtraction Operator " Url="html/1d22ec6d-876e-3637-1a8d-d4c2994c6970.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="83abd84f-8f5d-4b2b-9008-bc608088bcf0" Title="MatrixRow Properties" Url="html/429039b2-ee9b-e225-0687-aa291b3f0021.htm">
+        <HelpTOCNode Title="Coefficients Property " Url="html/72326670-2216-afb5-067e-7604988efb3b.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/68992a91-68fe-0e55-60a2-f63cc71c5f73.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="MatrixRow.ValidationResult Enumeration" Url="html/28733f22-7d3a-baf0-5ca4-9db064c4bf4b.htm" />
+  </HelpTOCNode>
+</HelpTOC>

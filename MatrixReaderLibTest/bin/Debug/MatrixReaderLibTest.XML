@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatrixReaderLibTest</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixReaderLibTest.Row">
+            <summary>
+            Class made for creation of Rows in JSON file.
+            </summary>
+        </member>
+        <member name="F:MatrixReaderLibTest.Row.Coefs">
+            <summary>Coefficients of a MatrixRow</summary>
+        </member>
+        <member name="F:MatrixReaderLibTest.Row.Result">
+            <summary>Result of a MatrixRow</summary>
+        </member>
+        <member name="T:MatrixReaderLibTest.GetMatrixJson">
+            <summary>
+            Class made for creation of JSON file.
+            </summary>
+        </member>
+        <member name="F:MatrixReaderLibTest.GetMatrixJson.Height">
+            <summary>Height of a Matrix</summary>
+        </member>
+        <member name="F:MatrixReaderLibTest.GetMatrixJson.Rows">
+            <summary>Rows of a Matrix</summary>
+        </member>
+        <member name="F:MatrixReaderLibTest.GetMatrixJson.Width">
+            <summary>Width of a Matrix</summary>
+        </member>
+        <member name="T:MatrixReaderLibTest.MainMatrixReaderLibTest">
+            <summary>
+            Main class for execution of tests of MatrixReaderLib namespace.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_TxtMatrixReader_LoadEqualMatrixes">
+            <summary>
+            Tests Load of matrix with TxtMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_TxtMatrixReader_LoadDifferentMatrixes">
+            <summary>
+            Tests Load of matrix with TxtMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_MatrixLoad_WrongFormat">
+            <summary>
+            Tests Load of matrix with TxtMatrixReader from wrong format string.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_MatrixLoad_MissingNumber">
+            <summary>
+            Tests Load of matrix with TxtMatrixReader from string with missing number.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_LoadEqualMatrixes">
+            <summary>
+            Tests Load of matrix with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateMatrixVersion_CorrectVersion_Version1">
+            <summary>
+            Tests Validation of MatrixVersion 1 with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateMatrixVersion_CorrectVersion_Version2">
+            <summary>
+            Tests Validation of MatrixVersion 2 with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateMatrixVersion_IncorrectVersion">
+            <summary>
+            Tests Validation of wrong MatrixVersion with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateRowFooter_CorrectVersion">
+            <summary>
+            Tests Validation of RowFooter with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateRowFooter_IncorrectVersion">
+            <summary>
+            Tests Validation of RowFooter with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateMatrixFooter_CorrectVersion">
+            <summary>
+            Tests Validation of MatrixFooter with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateMatrixFooter_IncorrectVersion">
+            <summary>
+            Tests Validation of MatrixFooter with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateCheckSum_CorrectVersion">
+            <summary>
+            Tests Validation of CheckSum with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_BinMatrixReader_ValidateCheckSum_IncorrectVersion">
+            <summary>
+            Tests Validation of CheckSum with BinMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_XmlMatrixReader_Load">
+            <summary>
+            Tests Load of matrix with XmlMatrixReader.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLibTest.MainMatrixReaderLibTest.Test_JsonMatrixReader_Load">
+            <summary>
+            Tests Load of matrix with JsonMatrixReader.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Addition operator" Url="html/68bf2b52-35a4-14c3-be17-7f47f6cb2382.htm" />
+  <HelpKINode Title="ClearUnwantedCoefficients method" Url="html/47750cc8-4a25-adaf-9ce1-dc8b07b13929.htm" />
+  <HelpKINode Title="Coefficients property" Url="html/72326670-2216-afb5-067e-7604988efb3b.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/38ea0d42-514b-afa7-2bb2-12af4e276fa2.htm" />
+  <HelpKINode Title="ComputeHistory property" Url="html/147d93e3-c3a3-9016-7f31-f260472e5bb7.htm" />
+  <HelpKINode Title="Equality operator" Url="html/4cfb3955-3697-c17b-e724-50ff3f3918a5.htm" />
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="Matrix.Equals Method " Url="html/0ff4c2e0-30ea-2d1a-33eb-66206bc85cd1.htm" />
+    <HelpKINode Title="MatrixRow.Equals Method " Url="html/ee636d31-9b26-cb48-e9fb-dbc6ef09fa29.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Exact enumeration member" Url="html/bad8965e-73d3-44b0-6e55-a8efcb56923c.htm" />
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="Matrix.GetHashCode Method " Url="html/6ab480f2-d194-58e6-ecd0-4e13767e9901.htm" />
+    <HelpKINode Title="MatrixRow.GetHashCode Method " Url="html/89358713-0d47-0b08-5b17-6edfdaf6783f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inequality operator" Url="html/f1eb4e9a-0506-df37-415b-064c1de422ab.htm" />
+  <HelpKINode Title="Infinite enumeration member" Url="html/bad8965e-73d3-44b0-6e55-a8efcb56923c.htm" />
+  <HelpKINode Title="InfiniteSolutions enumeration member" Url="html/28733f22-7d3a-baf0-5ca4-9db064c4bf4b.htm" />
+  <HelpKINode Title="Matrix class">
+    <HelpKINode Title="Matrix Class" Url="html/12a05c80-32e7-dc0b-0270-e22d73da0150.htm" />
+    <HelpKINode Title="about Matrix class" Url="html/12a05c80-32e7-dc0b-0270-e22d73da0150.htm" />
+    <HelpKINode Title="constructor" Url="html/3e448e1e-2795-8ec6-8887-9f89b0f736f6.htm" />
+    <HelpKINode Title="methods" Url="html/f2171d09-83d1-2aa8-2fdc-f2982e6eb69c.htm" />
+    <HelpKINode Title="properties" Url="html/8c9445a7-c75a-a554-bd42-7a84cfcbeace.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Matrix.ClearUnwantedCoefficients method" Url="html/47750cc8-4a25-adaf-9ce1-dc8b07b13929.htm" />
+  <HelpKINode Title="Matrix.ColumnCount property" Url="html/38ea0d42-514b-afa7-2bb2-12af4e276fa2.htm" />
+  <HelpKINode Title="Matrix.ComputeHistory property" Url="html/147d93e3-c3a3-9016-7f31-f260472e5bb7.htm" />
+  <HelpKINode Title="Matrix.Equals method" Url="html/0ff4c2e0-30ea-2d1a-33eb-66206bc85cd1.htm" />
+  <HelpKINode Title="Matrix.GetHashCode method" Url="html/6ab480f2-d194-58e6-ecd0-4e13767e9901.htm" />
+  <HelpKINode Title="Matrix.Matrix constructor" Url="html/3e448e1e-2795-8ec6-8887-9f89b0f736f6.htm" />
+  <HelpKINode Title="Matrix.MatrixResult enumeration" Url="html/bad8965e-73d3-44b0-6e55-a8efcb56923c.htm" />
+  <HelpKINode Title="Matrix.RowCount property" Url="html/8c9b8b02-589e-4210-d8d7-8ee8382c7068.htm" />
+  <HelpKINode Title="Matrix.Rows property" Url="html/b4eec1b1-3598-5218-8101-bcdd18a6c380.htm" />
+  <HelpKINode Title="Matrix.Solve method" Url="html/f1eabbdc-67fd-a700-540c-cb44f0c0f567.htm" />
+  <HelpKINode Title="Matrix.ToString method" Url="html/2aff8897-1b98-2fd0-39f9-a94529a37bb6.htm" />
+  <HelpKINode Title="Matrix.Validate method" Url="html/ed44fbc9-e547-5de9-3c9e-3b9e96eea500.htm" />
+  <HelpKINode Title="Matrix.Verify method" Url="html/0197f592-f1aa-27f4-fd81-9a1fbc87772a.htm" />
+  <HelpKINode Title="MatrixLib namespace" Url="html/740e708b-482f-6727-ece6-17a325d1e3ae.htm" />
+  <HelpKINode Title="MatrixLib.Matrix class" Url="html/12a05c80-32e7-dc0b-0270-e22d73da0150.htm" />
+  <HelpKINode Title="MatrixLib.Matrix.MatrixResult enumeration" Url="html/bad8965e-73d3-44b0-6e55-a8efcb56923c.htm" />
+  <HelpKINode Title="MatrixLib.MatrixRow class" Url="html/7816b1e6-2f22-f87f-46d3-d253caa5c176.htm" />
+  <HelpKINode Title="MatrixLib.MatrixRow.ValidationResult enumeration" Url="html/28733f22-7d3a-baf0-5ca4-9db064c4bf4b.htm" />
+  <HelpKINode Title="MatrixRow class">
+    <HelpKINode Title="MatrixRow Class" Url="html/7816b1e6-2f22-f87f-46d3-d253caa5c176.htm" />
+    <HelpKINode Title="about MatrixRow class" Url="html/7816b1e6-2f22-f87f-46d3-d253caa5c176.htm" />
+    <HelpKINode Title="constructor" Url="html/b550c5ce-d89e-09f5-d717-40d2dadeca76.htm" />
+    <HelpKINode Title="methods" Url="html/e1235baa-b71f-4f72-acda-5a00beb5ed13.htm" />
+    <HelpKINode Title="operators" Url="html/f4dc85c5-31ba-ab84-4165-a9a768686ebc.htm" />
+    <HelpKINode Title="properties" Url="html/429039b2-ee9b-e225-0687-aa291b3f0021.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatrixRow.Addition operator" Url="html/68bf2b52-35a4-14c3-be17-7f47f6cb2382.htm" />
+  <HelpKINode Title="MatrixRow.Coefficients property" Url="html/72326670-2216-afb5-067e-7604988efb3b.htm" />
+  <HelpKINode Title="MatrixRow.Equality operator" Url="html/4cfb3955-3697-c17b-e724-50ff3f3918a5.htm" />
+  <HelpKINode Title="MatrixRow.Equals method" Url="html/ee636d31-9b26-cb48-e9fb-dbc6ef09fa29.htm" />
+  <HelpKINode Title="MatrixRow.GetHashCode method" Url="html/89358713-0d47-0b08-5b17-6edfdaf6783f.htm" />
+  <HelpKINode Title="MatrixRow.Inequality operator" Url="html/f1eb4e9a-0506-df37-415b-064c1de422ab.htm" />
+  <HelpKINode Title="MatrixRow.MatrixRow constructor" Url="html/b550c5ce-d89e-09f5-d717-40d2dadeca76.htm" />
+  <HelpKINode Title="MatrixRow.Multiply operator" Url="html/9e321b9d-1ea1-4d4d-b402-edda4261e76d.htm" />
+  <HelpKINode Title="MatrixRow.Result property" Url="html/68992a91-68fe-0e55-60a2-f63cc71c5f73.htm" />
+  <HelpKINode Title="MatrixRow.Subtraction operator" Url="html/1d22ec6d-876e-3637-1a8d-d4c2994c6970.htm" />
+  <HelpKINode Title="MatrixRow.Validate method" Url="html/119e9ede-66f4-9886-eb08-1a96d31d9190.htm" />
+  <HelpKINode Title="MatrixRow.ValidationResult enumeration" Url="html/28733f22-7d3a-baf0-5ca4-9db064c4bf4b.htm" />
+  <HelpKINode Title="Multiply operator" Url="html/9e321b9d-1ea1-4d4d-b402-edda4261e76d.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/bad8965e-73d3-44b0-6e55-a8efcb56923c.htm" />
+  <HelpKINode Title="NoSolution enumeration member" Url="html/28733f22-7d3a-baf0-5ca4-9db064c4bf4b.htm" />
+  <HelpKINode Title="OK enumeration member" Url="html/28733f22-7d3a-baf0-5ca4-9db064c4bf4b.htm" />
+  <HelpKINode Title="Result property" Url="html/68992a91-68fe-0e55-60a2-f63cc71c5f73.htm" />
+  <HelpKINode Title="RowCount property" Url="html/8c9b8b02-589e-4210-d8d7-8ee8382c7068.htm" />
+  <HelpKINode Title="Rows property" Url="html/b4eec1b1-3598-5218-8101-bcdd18a6c380.htm" />
+  <HelpKINode Title="Solve method" Url="html/f1eabbdc-67fd-a700-540c-cb44f0c0f567.htm" />
+  <HelpKINode Title="Subtraction operator" Url="html/1d22ec6d-876e-3637-1a8d-d4c2994c6970.htm" />
+  <HelpKINode Title="ToString method" Url="html/2aff8897-1b98-2fd0-39f9-a94529a37bb6.htm" />
+  <HelpKINode Title="Validate method">
+    <HelpKINode Title="Matrix.Validate Method " Url="html/ed44fbc9-e547-5de9-3c9e-3b9e96eea500.htm" />
+    <HelpKINode Title="MatrixRow.Validate Method " Url="html/119e9ede-66f4-9886-eb08-1a96d31d9190.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Verify method" Url="html/0197f592-f1aa-27f4-fd81-9a1fbc87772a.htm" />
+</HelpKI>

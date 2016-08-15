@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatrixReaderLib</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixReaderLib.BinMatrixReader">
+            <summary>
+            Class for reading BIN file content and turning it into Matrix class instance.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLib.BinMatrixReader.Load(System.IO.Stream)">
+            <summary>
+            Reads stream and turns it into Matrix class instance.
+            </summary>
+            <param name="stream">Stream, which contains Matrix data</param>
+            <returns>Matrix instance</returns>
+        </member>
+        <member name="M:MatrixReaderLib.BinMatrixReader.Save(MatrixLib.Matrix,System.IO.Stream)">
+            <summary>
+            Saves Matrix object into a file in a .txt format.
+            </summary>
+            <param name="matrix">Matrix to save</param>
+            <param name="stream">Stream used for writing data to a file.</param>
+        </member>
+        <member name="T:MatrixReaderLib.JsonMatrixReader">
+            <summary>
+            Class for reading JSON file content and turning it into Matrix class instance.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLib.JsonMatrixReader.Load(System.IO.Stream)">
+            <summary>
+            Reads stream and turns it into Matrix class instance.
+            </summary>
+            <param name="stream">Stream, which contains Matrix data</param>
+            <returns>Matrix instance</returns>
+        </member>
+        <member name="M:MatrixReaderLib.JsonMatrixReader.Save(MatrixLib.Matrix,System.IO.Stream)">
+            <summary>
+            Saves Matrix object into a file in a .Json format.
+            </summary>
+            <param name="matrix">Matrix to save</param>
+            <param name="stream">Stream used for writing data to a file.</param>
+        </member>
+        <member name="T:MatrixReaderLib.MatrixJson">
+            <summary>
+            Class used for reading MatrixRows from XML file
+            </summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixJson.Height">
+            <summary>Variable for storing Height value of Matrix</summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixJson.Rows">
+            <summary>Array for storing Rows values of Matrix</summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixJson.Width">
+            <summary>Variable for storing Width value of Matrix</summary>
+        </member>
+        <member name="T:MatrixReaderLib.MatrixRowJson">
+            <summary>
+            Class used for reading MatrixRows from JSON file
+            </summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixRowJson.Coefs">
+            <summary>Array for storing Coefficients values of each Matrix row</summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixRowJson.Result">
+            <summary>Variable for storing Result value of each Matrix row</summary>
+        </member>
+        <member name="T:MatrixReaderLib.Loader">
+            <summary>
+            General Class for reading various filetype content and turning it into Matrix class instance.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLib.Loader.#ctor(System.String)">
+            <summary>
+            Constructor of Loader
+            </summary>
+            <param name="path">Path of file we want to read Matrix from</param>
+        </member>
+        <member name="M:MatrixReaderLib.Loader.Load">
+            <summary>
+            Uses MatrixReader to reads stream and turns it into Matrix class instance.
+            </summary>
+            <returns>Matrix instance</returns>
+        </member>
+        <member name="M:MatrixReaderLib.Loader.Save(MatrixLib.Matrix,System.IO.Stream)">
+            <summary>
+            Saves Matrix object into a file in a demanded format.
+            </summary>
+        </member>
+        <member name="T:MatrixReaderLib.TxtMatrixReader">
+            <summary>
+            Class for reading TXT file content and turning it into Matrix class instance.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLib.TxtMatrixReader.Load(System.IO.Stream)">
+            <summary>
+            Reads stream and turns it into Matrix class instance.
+            </summary>
+            <param name="stream">Stream, which contains Matrix data</param>
+            <returns>Matrix instance</returns>
+        </member>
+        <member name="M:MatrixReaderLib.TxtMatrixReader.Save(MatrixLib.Matrix,System.IO.Stream)">
+            <summary>
+            Saves Matrix object into a file in a .txt format.
+            </summary>
+        </member>
+        <member name="T:MatrixReaderLib.XmlMatrixReader">
+            <summary>
+            Class for reading XML file content and turning it into Matrix class instance.
+            </summary>
+        </member>
+        <member name="M:MatrixReaderLib.XmlMatrixReader.Load(System.IO.Stream)">
+            <summary>
+            Reads stream and turns it into Matrix class instance.
+            </summary>
+            <param name="stream">Stream, which contains Matrix data</param>
+            <returns>Matrix instance</returns>
+        </member>
+        <member name="M:MatrixReaderLib.XmlMatrixReader.Save(MatrixLib.Matrix,System.IO.Stream)">
+            <summary>
+            Saves Matrix object into a file in a .xml format.
+            </summary>
+            <param name="matrix">Matrix to save</param>
+            <param name="stream">Stream used for writing data to a file.</param>
+        </member>
+        <member name="T:MatrixReaderLib.MatrixRowXml">
+            <summary>
+            Class used for reading MatrixRows from XML file
+            </summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixRowXml.Coefs">
+            <summary>Array for storing Coefficients values of each Matrix row</summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixRowXml.Result">
+            <summary>Variable for storing Result value of each Matrix row</summary>
+        </member>
+        <member name="T:MatrixReaderLib.MatrixXml">
+            <summary>
+            Class used for reading Matrixes from XML file
+            </summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixXml.Width">
+            <summary>Variable for storing Width value of Matrix</summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixXml.Height">
+            <summary>Variable for storing Height value of Matrix</summary>
+        </member>
+        <member name="P:MatrixReaderLib.MatrixXml.Rows">
+            <summary>Array for storing Rows values of Matrix</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatrixLibUnitTest</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixLibUnitTest.MainMatrixTest">
+            <summary>
+            Main class for execution of tests of Matrix class.
+            </summary>
+        </member>
+        <member name="M:MatrixLibUnitTest.MainMatrixTest.Test_SolveMethodWithSingleRandomMatrix">
+            <summary>
+            Tests Solve method on randomly made Matrix.
+            </summary>
+        </member>
+        <member name="M:MatrixLibUnitTest.MainMatrixTest.Test_SolveMethodWithListOfRandomMatrixes">
+            <summary>
+            Tests Solve method on list of randomly made Matrixes.
+            </summary>
+        </member>
+        <member name="M:MatrixLibUnitTest.MainMatrixTest.Test_MatrixValidate_MissingOneCoefficient">
+            <summary>
+            Tests Validate method on Matrix, which is missing one coefficient.
+            </summary>
+        </member>
+        <member name="M:MatrixLibUnitTest.MainMatrixTest.Test_MatrixValidate_MissingOneRow">
+            <summary>
+            Tests Validate method on Matrix, which is missing one row.
+            </summary>
+        </member>
+        <member name="M:MatrixLibUnitTest.MainMatrixTest.Test_ClearUnwantedCoefficients">
+            <summary>
+            Tests ClearUnwantedCoefficients method on Matrix.
+            </summary>
+        </member>
+    </members>
+</doc>

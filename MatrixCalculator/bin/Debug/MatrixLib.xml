@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatrixLib</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixLib.Matrix">
+            <summary>
+            Matrix class for calculation equations with multiple unknown variables.
+            </summary>
+        </member>
+        <member name="T:MatrixLib.Matrix.MatrixResult">
+            <summary>
+            Enumeration used to show how many solutions does the matrix have.
+            </summary>
+        </member>
+        <member name="F:MatrixLib.Matrix.MatrixResult.Exact">
+            <summary>Exactly one solution</summary>
+        </member>
+        <member name="F:MatrixLib.Matrix.MatrixResult.Infinite">
+            <summary>Infinite amount of solutions</summary>
+        </member>
+        <member name="F:MatrixLib.Matrix.MatrixResult.None">
+            <summary>None solution</summary>
+        </member>
+        <member name="P:MatrixLib.Matrix.ComputeHistory">
+            <summary>List of strings with saved matrix compution history</summary>
+        </member>
+        <member name="P:MatrixLib.Matrix.Rows">
+            <summary>List of matrix rows</summary>
+        </member>
+        <member name="P:MatrixLib.Matrix.RowCount">
+            <summary>Amount of rows contained in matrix</summary>
+        </member>
+        <member name="P:MatrixLib.Matrix.ColumnCount">
+            <summary>Amount of columns cointained in matrix</summary>
+        </member>
+        <member name="M:MatrixLib.Matrix.#ctor">
+            <summary>
+            Matrix constructor
+            </summary>
+        </member>
+        <member name="M:MatrixLib.Matrix.Validate">
+            <summary>
+            Validates, if dimmensions of matrix are correct.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MatrixLib.Matrix.Solve(RationalLib.Rational[]@)">
+            <summary>
+            Solves matrix.
+            </summary>
+            <param name="results">Array of rational numbers where results will be saved</param>
+            <returns></returns>
+        </member>
+        <member name="M:MatrixLib.Matrix.ClearUnwantedCoefficients(System.Collections.Generic.List{MatrixLib.MatrixRow},System.Int32)">
+            <summary>
+            Clears coefficients above and under certains row coefficient.
+            </summary>
+            <param name="rowsForSolving">List of all rows of matrix</param>
+            <param name="row">Row, whose multiplication will be subtracted from the other rows</param>
+        </member>
+        <member name="M:MatrixLib.Matrix.SwitchRows(System.Collections.Generic.List{MatrixLib.MatrixRow},System.Int32)">
+            <summary>
+            Switches position of row in List on position rowPosition with row on position where
+            rowsForSolving[position].Coefficients[rowposition] is not equal to zero.
+            </summary>
+            <param name="rowsForSolving">List of all rows of matrix</param>
+            /// <param name="rowPosition">Row whom we want to switch.</param>
+            <returns>True if row was switched with another one, which can be used
+            for solving the matrix.</returns>
+        </member>
+        <member name="M:MatrixLib.Matrix.Verify(RationalLib.Rational[])">
+            <summary>
+            Verifies if entered matrix results are correct.
+            </summary>
+            <param name="results">Roots of matrix</param>
+            <returns>Boolean value, if entered matrix results are correct</returns>
+        </member>
+        <member name="M:MatrixLib.Matrix.ToString">
+            <summary>
+            ToString method.
+            </summary>
+            <returns>String representation of matrix</returns>
+        </member>
+        <member name="M:MatrixLib.Matrix.GetHashCode">
+            <summary>
+            GetHashCode method.
+            </summary>
+            <returns>Integer representation of matrix</returns>
+        </member>
+        <member name="M:MatrixLib.Matrix.Equals(System.Object)">
+            <summary>
+            Equals method.
+            </summary>
+            <param name="obj">Input matrix of type object</param>
+            <returns>Boolean value, if current matrix matches obj.</returns>
+        </member>
+        <member name="T:MatrixLib.MatrixRow">
+            <summary>
+            MatrixRow class which defines one row of a Matrix class.
+            </summary>
+        </member>
+        <member name="T:MatrixLib.MatrixRow.ValidationResult">
+            <summary>
+            Enumeration used to show how many solutions can MatrixRow have.
+            </summary>
+        </member>
+        <member name="F:MatrixLib.MatrixRow.ValidationResult.OK">
+            <summary>Exactly one solution</summary>
+        </member>
+        <member name="F:MatrixLib.MatrixRow.ValidationResult.NoSolution">
+            <summary>No solution</summary>
+        </member>
+        <member name="F:MatrixLib.MatrixRow.ValidationResult.InfiniteSolutions">
+            <summary>Infinite solutions</summary>
+        </member>
+        <member name="P:MatrixLib.MatrixRow.Coefficients">
+            <summary>Coefficients of MatrixRow</summary>
+        </member>
+        <member name="P:MatrixLib.MatrixRow.Result">
+            <summary>Result of MatrixRow</summary>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.#ctor(RationalLib.Rational[],RationalLib.Rational)">
+            <summary>
+            Constructor of MatrixRow
+            </summary>
+            <param name="coefficients">Rational coefficients of MatrixRow</param>
+            <param name="result">Rational result of MatrixRow</param>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.op_Addition(MatrixLib.MatrixRow,MatrixLib.MatrixRow)">
+            <summary>
+            Sums two MatrixRows.
+            </summary>
+            <param name="row1">First MatrixRow</param>
+            <param name="row2">Second MatrixRow</param>
+            <returns>Summarized MatrixRow</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.op_Subtraction(MatrixLib.MatrixRow,MatrixLib.MatrixRow)">
+            <summary>
+            Subtracts two MatrixRows.
+            </summary>
+            <param name="row1">First MatrixRow</param>
+            <param name="row2">Second MatrixRow</param>
+            <returns>Subtracted MatrixRow</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.op_Multiply(MatrixLib.MatrixRow,RationalLib.Rational)">
+            <summary>
+            Multiplies two MatrixRows.
+            </summary>
+            <param name="row1">MatrixRow to be multiplied</param>
+            <param name="num">Multiplier</param>
+            <returns>Multiplied MatrixRow</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.op_Equality(MatrixLib.MatrixRow,MatrixLib.MatrixRow)">
+            <summary>
+            Compares values of two MatrixRows.
+            </summary>
+            <param name="row1">First MatrixRow</param>
+            <param name="row2">Second MatrixRow</param>
+            <returns>Confirmation if values of two MatrixRows are equal.</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.op_Inequality(MatrixLib.MatrixRow,MatrixLib.MatrixRow)">
+            <summary>
+            Compares values of two MatrixRows.
+            </summary>
+            <param name="row1">First MatrixRow</param>
+            <param name="row2">Second MatrixRow</param>
+            <returns>Confirmation if values of two MatrixRows are not equal.</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.GetHashCode">
+            <summary>
+            Gets hash code of MatrixRow.
+            </summary>
+            <returns>HashCode</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.Equals(System.Object)">
+            <summary>
+            Compares MatrixRow to other object.
+            </summary>
+            <param name="obj">Object to compare with</param>
+            <returns>Confirmation if object is instance of Rational and has same values as 
+            this MatrixRow.</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.Validate">
+            <summary>
+            Finds out, if row has no solution, infinite solutions or one solution.
+            </summary>
+            <returns>ValidationResult</returns>
+        </member>
+        <member name="M:MatrixLib.MatrixRow.Compute(RationalLib.Rational[])">
+            <summary>
+            Computes result of equation after substitution of []results.
+            </summary>
+            <param name="results">array of root results</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

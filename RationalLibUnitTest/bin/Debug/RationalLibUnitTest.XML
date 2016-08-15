@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RationalLibUnitTest</name>
+    </assembly>
+    <members>
+        <member name="T:RationalLibUnitTest.MainRationalTest">
+            <summary>
+            Main class for execution of tests of Rational class.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.TestRationalPrecision">
+            <summary>
+            Tests Parse method of Rational class.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.TestRationalPrecisionInt">
+            <summary>
+            Tests Parse method of Rational class with implicit Rational operator used.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_PlusOperatorPositive">
+            <summary>
+            Tests plus operator of Rational class with two positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_PlusOperatorNegative">
+            <summary>
+            Tests plus operator of Rational class with positive and negative rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_MinusOperatorPositive">
+            <summary>
+            Tests plus operator of Rational class with two positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_MinusOperatorNegative">
+            <summary>
+            Tests minus operator of Rational class with positive and negative rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_MulOperatorPositive">
+            <summary>
+            Tests multiply operator of Rational class with two positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_MulOperatorNegative">
+            <summary>
+            Tests multiply operator of Rational class with positive and negative rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_DivisionOperatorPositive">
+            <summary>
+            Tests division operator of Rational class with two positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_DivisionOperatorNegative">
+            <summary>
+            Tests division operator of Rational class with positive and negative rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_CompareOperatorPositive">
+            <summary>
+            Tests compare operator of Rational class with two positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_EqualOperatorNegative">
+            <summary>
+            Tests compare operator of Rational class with negative rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_UnequalOperatorPositive">
+            <summary>
+            Tests negated compare operator of Rational class with positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_UnequalOperatorNegative">
+            <summary>
+            Tests negated compare operator of Rational class with positive and negative rational number.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_BiggerOperatorPositive">
+            <summary>
+            Tests is bigger operator of Rational class with positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_BiggerOperatorNegative">
+            <summary>
+            Tests is bigger operator of Rational class with positive and negative rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_SmallerOperatorPositive">
+            <summary>
+            Tests is smaller operator of Rational class with positive rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_SmallerOperatorNegative">
+            <summary>
+            Tests is smaller operator of Rational class with positive and negative rational numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_GetDigitsAmount_FiveDigitNumber">
+            <summary>
+            Tests GetDigitsAmount method of Utils class with five digit number.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_GetSmallestCommonMultiple_TwoPrimeNumbers">
+            <summary>
+            Tests GetSmallestCommonMultiple method of Utils class with two prime numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_GetSmallestCommonMultiple_TwoSplittableNumbers">
+            <summary>
+            Tests GetSmallestCommonMultiple method of Utils class with five two splittable numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_GetPartialDividors">
+            <summary>
+            Tests GetPartialDividors method of Utils class with splittable number.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_GetListOfCommonPartialDividors">
+            <summary>
+            Tests GetListOfCommonPartialDividors method of Utils class with two splittable numbers.
+            </summary>
+        </member>
+        <member name="M:RationalLibUnitTest.MainRationalTest.Test_GetHighestCommonDividor">
+            <summary>
+            Tests GetHighestCommonDividor method of Utils class with two splittable numbers.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\MatrixLib.dll
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\MatrixLib.pdb
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\obj\Debug\MatrixLib.dll
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\obj\Debug\MatrixLib.pdb
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\obj\Debug\MatrixLib.csprojResolveAssemblyReference.cache
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\RationalLib.dll
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\RationalLib.pdb
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\CommonLib.dll
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\CommonLib.pdb
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\MatrixLib.XML
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\CommonLib.xml
+C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixLib\bin\Debug\RationalLib.xml

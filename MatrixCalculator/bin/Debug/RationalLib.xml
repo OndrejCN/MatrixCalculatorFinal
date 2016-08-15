@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RationalLib</name>
+    </assembly>
+    <members>
+        <member name="T:RationalLib.Rational">
+            <summary>
+            Struct being used for calculation in rational numbers.
+            </summary>
+        </member>
+        <member name="P:RationalLib.Rational.Numerator">
+            <summary>Numerator of fracion</summary>
+        </member>
+        <member name="P:RationalLib.Rational.Denominator">
+            <summary>Denominator of fraction</summary>
+        </member>
+        <member name="M:RationalLib.Rational.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructs a rational number in base cast.
+            </summary>
+            <param name="numerator">Numerator of fraction</param>
+            <param name="denominator">Denominator of fraction</param>
+        </member>
+        <member name="M:RationalLib.Rational.Parse(System.String)">
+            <summary>
+            Parses string into rational number.
+            </summary>
+            <param name="str">Input string</param>
+            <returns>Rational number</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_Addition(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Sums two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Summarized rational number</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_Subtraction(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Subtracts two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Subtracted rational number</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_Multiply(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Multiplies two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Multiplied rational number</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_Division(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Divides two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Divided rational number</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_Equality(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Compares values of two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Confirmation if values of two rational numbers are equal.</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_Inequality(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Compares values of two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Confirmation if values of two rational numbers are not equal.</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_GreaterThan(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Compares values of two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Confirmation if value of first rational number is higher than the other one.</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_LessThan(RationalLib.Rational,RationalLib.Rational)">
+            <summary>
+            Compares values of two rational numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Confirmation if value of first rational number is lower than the other one.</returns>
+        </member>
+        <member name="M:RationalLib.Rational.op_Implicit(System.Int32)~RationalLib.Rational">
+            <summary>
+            Implicit operator of Rational struct.
+            </summary>
+            <param name="value">Integer value of rational number</param>
+        </member>
+        <member name="M:RationalLib.Rational.op_Implicit(System.Double)~RationalLib.Rational">
+            <summary>
+            Implicit operator of Rational struct.
+            </summary>
+            <param name="value">Double value of rational number</param>
+        </member>
+        <member name="M:RationalLib.Rational.Equals(System.Object)">
+            <summary>
+            Compares rational number to other object.
+            </summary>
+            <param name="obj">Object to compare with</param>
+            <returns>Confirmation if object is instance of Rational and has same values as 
+            this rational number.</returns>
+        </member>
+        <member name="M:RationalLib.Rational.GetHashCode">
+            <summary>
+            Gets hash code of rational number.
+            </summary>
+            <returns>HashCode</returns>
+        </member>
+        <member name="M:RationalLib.Rational.ToString">
+            <summary>
+            Gets string representation of rational number.
+            </summary>
+            <returns>String representation of rational number</returns>
+        </member>
+        <member name="M:RationalLib.Rational.ProcessNegative">
+            <summary>
+            get rid of negative sign if both numerator and denominator are negative
+            </summary>
+        </member>
+        <member name="M:RationalLib.Rational.RationalToDouble(RationalLib.Rational,System.Int32)">
+            <summary>
+            Transforms Rational number into double.
+            </summary>
+            <param name="number">Rational number to tranform.</param>
+            /// <param name="decimalPlaces">Amount of decimal places of double output.</param>
+            <returns>Double representation of Rational number.</returns>
+        </member>
+    </members>
+</doc>

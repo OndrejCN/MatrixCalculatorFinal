@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonLib</name>
+    </assembly>
+    <members>
+        <member name="T:Common.Utils">
+            <summary>
+            Class with common methods being used in entire solution.
+            </summary>
+        </member>
+        <member name="M:Common.Utils.AddBytesToInt16(System.Byte[],System.Int16@)">
+            <summary>
+            Sums array of bytes and adds it to 16 bits variable.
+            </summary>
+            <param name="data">Array of bytes/</param>
+            <param name="checkSum">Input and output of summing</param>
+        </member>
+        <member name="M:Common.Utils.GetDigitsAmount(System.Int32)">
+            <summary>
+            Gets amount of digits in a number.
+            </summary>
+            <param name="number">Input value</param>
+            <returns>Amount of digits</returns>
+        </member>
+        <member name="M:Common.Utils.GetSmallestCommonMultiple(System.Int32,System.Int32)">
+            <summary>
+            Gets smallest common multible of two integer numbers.
+            </summary>
+            <param name="r1">First number</param>
+            <param name="r2">Second number</param>
+            <returns>Smallest common multiple</returns>
+        </member>
+        <member name="M:Common.Utils.GetPartialDividors(System.Int32)">
+            <summary>
+            Gets list of base partial dividors of a number.
+            </summary>
+            <param name="number">Input number</param>
+            <returns>List of base partial dividors</returns>
+        </member>
+        <member name="M:Common.Utils.GetListOfCommonPartialDividors(System.Int32,System.Int32)">
+            <summary>
+            Gets list of common partial dividors of two numbers.
+            </summary>
+            <param name="r1">First input number</param>
+            <param name="r2">Second input number</param>
+            <returns>List of common partial dividors</returns>
+        </member>
+        <member name="M:Common.Utils.GetHighestCommonDividor(System.Int32,System.Int32)">
+            <summary>
+            Gets highest common dividor of two numbers.
+            </summary>
+            <param name="r1">First input number</param>
+            <param name="r2">Second input number</param>
+            <returns>Highest common dividor</returns>
+        </member>
+        <member name="M:Common.Utils.DeepClone``1(``0)">
+            <summary>
+            Creates a deep clone of an object using BinaryFormatter.
+            </summary>
+            <typeparam name="T">Object for cloning</typeparam>
+            <param name="obj"></param>
+            <returns>Deep clone of an object</returns>
+        </member>
+        <member name="M:Common.Utils.TxtToString(System.IO.Stream)">
+            <summary>
+            Reads all characters from the current position of Stream to the end.
+            </summary>
+            <param name="stream">Stream</param>
+            <returns>String content of stream</returns>
+        </member>
+        <member name="M:Common.Utils.DoubleArrayToString(System.Double[])">
+            <summary>
+            Gets string representation of array of doubles.
+            </summary>
+            <param name="numbers">Array of doubles</param>
+            <returns>String representation</returns>
+        </member>
+        <member name="M:Common.Utils.DeepClone2(System.Object)">
+            <summary>
+            Creates a deep clone of an object using BinaryFormatter.
+            </summary>
+            <param name="obj"></param>
+            <returns>Deep clone of an object</returns>
+        </member>
+        <member name="M:Common.Utils.Max(System.Int32,System.Int32)">
+            <summary>
+            Finds bigger double number.
+            </summary>
+            <param name="x">First doublenumber</param>
+            <param name="y">Second double number</param>
+            <returns>Bigger double number out of two</returns>
+        </member>
+        <member name="M:Common.Utils.Max(System.Double,System.Double)">
+            <summary>
+            Finds bigger int number.
+            </summary>
+            <param name="x">First int number</param>
+            <param name="y">Second int number</param>
+            <returns>Bigger int number out of two</returns>
+        </member>
+        <member name="M:Common.Utils.Max``1(``0,``0)">
+            <summary>
+            Finds bigger number out of two in any format.
+            </summary>
+            <param name="x">First number</param>
+            <param name="y">Second number</param>
+            <returns>Bigger number out of two</returns>
+        </member>
+        <member name="M:Common.Utils.Abreviate(System.String,System.Int32)">
+            <summary>
+            Random method
+            </summary>
+            <param name="text"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Common.Utils.PARSING_ERROR">
+            <summary>
+            Constant used to declare error occurance during parsing string into int.
+            </summary>
+        </member>
+    </members>
+</doc>
