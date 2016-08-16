@@ -35,6 +35,13 @@
             <param name="stream">Stream, which contains Matrix data</param>
             <returns>Matrix instance</returns>
         </member>
+        <member name="M:MatrixReaderLib.JsonMatrixReader.MatrixJsonToMatrix(MatrixReaderLib.MatrixJson)">
+            <summary>
+            Converts object of type MatrixJson into Matrix instance.
+            </summary>
+            <param name="matrixJson">Input object of type MatrixJson</param>
+            <returns>new instance of Matrix class</returns>
+        </member>
         <member name="M:MatrixReaderLib.JsonMatrixReader.Save(MatrixLib.Matrix,System.IO.Stream)">
             <summary>
             Saves Matrix object into a file in a .Json format.

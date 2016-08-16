@@ -5,6 +5,8 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using MatrixLib;
+using MatrixReaderLib;
 
 namespace MatrixWcfService
 {
@@ -22,6 +24,9 @@ namespace MatrixWcfService
         [OperationContract]
         int AddNumbers2(Container container);
 
+        [WebInvoke(UriTemplate = "/SolveMatrix", Method = "POST", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
+        [OperationContract]
+        string SolveMatrix(MatrixJson matrixJson);
 
         [OperationContract]
         string GetData(int value);

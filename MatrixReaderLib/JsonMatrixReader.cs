@@ -29,9 +29,19 @@ namespace MatrixReaderLib
             //stream.Position = 0;
             MatrixJson myObject = (MatrixJson)serializer.ReadObject(stream);
 
+            return MatrixJsonToMatrix(myObject);
+        }
+
+        /// <summary>
+        /// Converts object of type MatrixJson into Matrix instance.
+        /// </summary>
+        /// <param name="matrixJson">Input object of type MatrixJson</param>
+        /// <returns>new instance of Matrix class</returns>
+        public static Matrix MatrixJsonToMatrix(MatrixJson matrixJson)
+        {
             Matrix matrix = new Matrix();
-            
-            foreach (MatrixRowJson matrixRowJson in myObject.Rows)
+
+            foreach (MatrixRowJson matrixRowJson in matrixJson.Rows)
             {
                 Rational[] coefs = new Rational[matrixRowJson.Coefs.Length];
                 for (int i = 0; i < coefs.Length; i++)

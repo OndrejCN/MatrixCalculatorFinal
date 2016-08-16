@@ -11,3 +11,16 @@ C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalL
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalLibUnitTest\bin\Debug\RationalLibUnitTest.XML
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalLibUnitTest\bin\Debug\CommonLib.xml
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalLibUnitTest\bin\Debug\RationalLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\RationalLibUnitTest.XML
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\RationalLibUnitTest.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\RationalLibUnitTest.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\CommonLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\RationalLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\CommonLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\CommonLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\RationalLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\bin\Debug\RationalLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\obj\Debug\RationalLibUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\obj\Debug\RationalLibUnitTest.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLibUnitTest\obj\Debug\RationalLibUnitTest.pdb

@@ -7,3 +7,12 @@ C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalL
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalLib\bin\Debug\CommonLib.pdb
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalLib\bin\Debug\RationalLib.XML
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\RationalLib\bin\Debug\CommonLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\bin\Debug\RationalLib.XML
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\bin\Debug\RationalLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\bin\Debug\RationalLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\bin\Debug\CommonLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\bin\Debug\CommonLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\bin\Debug\CommonLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\obj\Debug\RationalLib.csprojResolveAssemblyReference.cache
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\obj\Debug\RationalLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\RationalLib\obj\Debug\RationalLib.pdb

@@ -3,3 +3,8 @@ C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\CommonLib
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\CommonLib\obj\Debug\CommonLib.dll
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\CommonLib\obj\Debug\CommonLib.pdb
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\CommonLib\bin\Debug\CommonLib.XML
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\CommonLib\bin\Debug\CommonLib.XML
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\CommonLib\obj\Debug\CommonLib.pdb

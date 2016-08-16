@@ -5,6 +5,9 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using MatrixLib;
+using MatrixReaderLib;
+using RationalLib;
 
 namespace MatrixWcfService
 {
@@ -20,6 +23,26 @@ namespace MatrixWcfService
         public int AddNumbers2(Container container)
         {
             return container.X + container.Y;
+        }
+
+        public string SolveMatrix(MatrixJson matrixJson)
+        {
+            Rational[] results;
+            Matrix matrix = JsonMatrixReader.MatrixJsonToMatrix(matrixJson);
+            matrix.Solve(out results);
+
+            //string outputHtml = "<html> <head></head> <body> <h1> This is a Heading </h1> <p> This is a paragraph.</p> </body></html>";
+            string output = "Results of matrix: [&nbsp&nbsp&nbsp&nbsp&nbsp";
+            for (int i = 0; i < results.Length; i++)
+            {
+                //output += results[i].Numerator.ToString();
+                output += results[i].Numerator.ToString() + " | " + results[i].Denominator.ToString();
+                //output += Rational.RationalToDouble(results[i], 2).ToString();
+                output += "&nbsp&nbsp&nbsp&nbsp&nbsp";
+            }
+            output += "]";
+            //return string.Join("***", results);\
+            return output;
         }
 
         public string GetData(int value)

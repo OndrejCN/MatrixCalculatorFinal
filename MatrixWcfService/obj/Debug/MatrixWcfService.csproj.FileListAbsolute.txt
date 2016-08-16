@@ -17,3 +17,17 @@ C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\Microsof
 C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\obj\Debug\MatrixWcfService.csprojResolveAssemblyReference.cache
 C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\obj\Debug\MatrixWcfService.dll
 C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\obj\Debug\MatrixWcfService.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\MatrixLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\RationalLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\CommonLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\MatrixLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\MatrixLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\RationalLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\RationalLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\CommonLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\CommonLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\MatrixReaderLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\Newtonsoft.Json.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\MatrixReaderLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\MatrixReaderLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixWcfService\bin\Newtonsoft.Json.xml

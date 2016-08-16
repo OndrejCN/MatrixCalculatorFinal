@@ -18,3 +18,23 @@ C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixCal
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixCalculator\bin\Debug\CommonLib.xml
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixCalculator\bin\Debug\Newtonsoft.Json.dll
 C:\Users\trubac\Documents\Visual Studio 2015\Projects\MatrixCalculator\MatrixCalculator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixCalculator.exe.config
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixCalculator.exe
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixCalculator.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixReaderLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\RationalLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\CommonLib.dll
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixReaderLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixReaderLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\MatrixLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\RationalLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\RationalLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\CommonLib.pdb
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\bin\Debug\CommonLib.xml
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\obj\Debug\MatrixCalculator.csprojResolveAssemblyReference.cache
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\obj\Debug\MatrixCalculator.exe
+C:\Users\trubac\Source\Repos\MatrixCalculatorFinal\MatrixCalculator\obj\Debug\MatrixCalculator.pdb
